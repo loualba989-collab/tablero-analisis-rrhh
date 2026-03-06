@@ -22,7 +22,7 @@ st.title("📊 Dashboard - Analisis de Datos para el departamento de Recursos Hu
 # ==============================
 ruta = r"C:\Users\OFICINA\OneDrive\Escritorio\paython\Dashboard deber\employees.csv"
 
-df = pd.read_csv(ruta)
+df = pd.read_csv('employees.csv')
 
 # Renombrar columnas
 df.rename(columns={
